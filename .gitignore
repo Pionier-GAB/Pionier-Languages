@@ -1,0 +1,33 @@
+# Gradle
+.gradle/
+build/
+*.apk
+*.aab
+
+# Android
+.idea/
+*.iml
+local.properties
+*.keystore
+*.jks
+
+# Desktop
+out/
+*.exe
+dist/
+
+# IDE
+.DS_Store
+*.swp
+*.swo
+*~
+.vscode/
+
+# Kotlin
+*.class
+*.jar
+bin/
+
+# Content
+content/langues/*/niveaux/*/cours/*/audio.*
+!content/langues/*/niveaux/*/cours/*/metadata.json
